@@ -188,6 +188,7 @@ generateBtn.addEventListener('click', () => {
     }
 
 
+    
     // Remove Previous Password 
     password = "";
 
