@@ -187,6 +187,7 @@ generateBtn.addEventListener('click', () => {
         handleSlider();
     }
 
+
     // Remove Previous Password 
     password = "";
 
