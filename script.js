@@ -199,6 +199,7 @@ generateBtn.addEventListener('click', () => {
     if (numbers.checked) arrayOfCheckedFunction.push(generateRandomNumber);
     if (symbols.checked) arrayOfCheckedFunction.push(generateRandomSymbol);
 
+    
     // Compulsory Addition
     for (let i = 0; i < arrayOfCheckedFunction.length; i++) {
         password += arrayOfCheckedFunction[i]();
